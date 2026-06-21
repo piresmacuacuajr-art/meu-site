@@ -1,0 +1,59 @@
+{
+  "collections": {
+    "properties": {
+      "id": "string",
+      "title": "string",
+      "description": "string",
+      "price": "number",
+      "location": "string",
+      "province": "string",
+      "category": "string",
+      "type": "string",
+      "bedrooms": "number",
+      "bathrooms": "number",
+      "area": "number",
+      "imageUrls": "array",
+      "videoUrl": "string",
+      "isFeatured": "boolean",
+      "isNew": "boolean",
+      "isApproved": "boolean",
+      "ownerName": "string",
+      "ownerPhone": "string",
+      "ownerEmail": "string",
+      "coordinates": {
+        "lat": "number",
+        "lng": "number"
+      },
+      "details": {
+        "documentation": "string"
+      },
+      "createdAt": "timestamp",
+      "updatedAt": "timestamp"
+    },
+    "leads": {
+      "id": "string",
+      "name": "string",
+      "phone": "string",
+      "email": "string",
+      "propertyTitle": "string",
+      "propertyType": "string",
+      "priceEstimate": "number",
+      "description": "string",
+      "location": "string",
+      "status": "string",
+      "createdAt": "timestamp"
+    },
+    "visit_requests": {
+      "id": "string",
+      "propertyId": "string",
+      "propertyTitle": "string",
+      "clientName": "string",
+      "clientPhone": "string",
+      "visitDate": "string",
+      "visitTime": "string",
+      "message": "string",
+      "status": "string",
+      "createdAt": "timestamp"
+    }
+  }
+}
